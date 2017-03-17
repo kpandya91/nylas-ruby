@@ -18,8 +18,8 @@ Gem::Specification.new do |gem|
   gem.dependencies.clear
 
   gem.add_runtime_dependency 'rest-client', '~> 2.0'
-  gem.add_runtime_dependency 'yajl-ruby', '>= 1.2.1'
-  gem.add_runtime_dependency 'em-http-request', '>= 1.1.3'
+  gem.add_runtime_dependency 'yajl-ruby', '~> 1.2', '>= 1.2.1'
+  gem.add_runtime_dependency 'em-http-request', '~> 1.1', '>= 1.1.3'
 
   gem.add_development_dependency 'rspec', '~> 3.5', '>= 3.5.0'
   gem.add_development_dependency "shoulda", '~> 3.5', '>= 3.4.0'
